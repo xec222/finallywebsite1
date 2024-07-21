@@ -1,0 +1,89 @@
+/* Genel stiller */
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Sayfa arka planı siyah */
+    color: #00ff00; /* Metin rengi yeşil */
+}
+
+/* Navbar stilleri */
+.navbar {
+    background-color: #000;
+    border-bottom: 2px solid white; /* Barın altında beyaz border */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.navbar .left {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .left .brand {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.navbar .right a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.navbar .right a:hover {
+    text-decoration: underline;
+}
+
+/* Başlık stilleri */
+.header {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.header h1 {
+    font-size: 3em;
+    color: #ff0000; /* Başlık rengi kırmızı */
+    animation: rainbow-text 3s infinite;
+}
+
+@keyframes rainbow-text {
+    0% { color: #ff0000; }
+    25% { color: #ff7f00; }
+    50% { color: #ffff00; }
+    75% { color: #00ff00; }
+    100% { color: #0000ff; }
+}
+
+.photo-section {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.photo-section img {
+    width: 200px; /* Fotoğraf genişliği ayarı */
+    border-radius: 50%; /* Yuvarlak kenar */
+    margin-bottom: 20px;
+}
+
+.photo-description {
+    text-align: center;
+    font-size: 1.2em;
+    color: #fff; /* Açıklama metin rengi beyaz */
+}
+
+.pgp-key {
+    margin-top: 20px;
+    text-align: center;
+    color: #fff; /* Metin rengi beyaz */
+}
+
+.pgp-key h3 {
+    font-size: 1.5em;
+    color: #ff0000; /* Başlık rengi kırmızı */
+    margin-bottom: 10px;
+}

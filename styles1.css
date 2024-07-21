@@ -1,0 +1,139 @@
+/* Genel stiller */
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Sayfa arka planı siyah */
+    color: #fff; /* Metin rengi beyaz */
+}
+
+/* Navbar stilleri */
+.navbar {
+    background-color: #000;
+    border-bottom: 2px solid white; /* Barın altında beyaz border */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.navbar .left {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .left .brand {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.navbar .right a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.navbar .right a:hover {
+    text-decoration: underline;
+}
+
+/* Services bölümü stilleri */
+.services-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.service-box {
+    width: 300px; /* Kutu genişliği */
+    height: 200px; /* Kutu yüksekliği */
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.service-box h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.service-box p {
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+.service-link {
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.service-link img {
+    width: 40px; /* Link ikon genişliği */
+    height: 40px; /* Link ikon yüksekliği */
+}
+
+/* Services sayfası stilleri */
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Sayfa arka planı siyah */
+    color: #fff; /* Metin rengi beyaz */
+}
+
+/* Navbar stilleri */
+.navbar {
+    background-color: #000;
+    border-bottom: 2px solid white; /* Barın altında beyaz border */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.navbar .left {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .left .brand {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.navbar .right a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.navbar .right a:hover {
+    text-decoration: underline;
+}
+
+/* Header stilleri */
+.header {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.header h1 {
+    font-size: 2.5em;
+    color: #ff0000; /* Başlık rengi kırmızı */
+    animation: rainbow-text 3s infinite;
+}
+
+@keyframes rainbow-text {
+    0% { color: #ff0000; }
+    25% { color: #ff7f00; }
+    50% { color: #ffff00; }
+    75% { color: #00ff00; }
+    100% { color: #0000ff; }
+}
